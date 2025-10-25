@@ -1,7 +1,4 @@
 ﻿/* Custom CSS for Travel Website */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
     box-sizing: border-box;
