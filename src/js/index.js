@@ -1,5 +1,11 @@
 ﻿// JavaScript functionality for Figma Travel Website
 
+// Import API module
+import API from './api.js';
+
+// Make API available globally
+window.API = API;
+
 // Global State
 const state = {
     currentHeroSlide: 0,

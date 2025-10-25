@@ -1,4 +1,4 @@
-﻿// Content data (can be loaded from external JSON in production with a server)
+// Content data (can be loaded from external JSON in production with a server)
 
 const contentData = {
     "hero": {
@@ -15,56 +15,56 @@ const contentData = {
             "id": 1,
             "name": "Eiffel Tower",
             "tours": 356,
-            "image": "./assets/images/eiffel-tower.png"
+            "image": "./src/assets/images/eiffel-tower.png"
         },
         {
             "id": 2,
             "name": "Machu Picchu",
             "tours": 356,
-            "image": "./assets/images/machu-picchu.png"
+            "image": "./src/assets/images/machu-picchu.png"
         },
         {
             "id": 3,
             "name": "Great Wall",
             "tours": 356,
-            "image": "./assets/images/great-wall.png"
+            "image": "./src/assets/images/great-wall.png"
         },
         {
             "id": 4,
             "name": "Statue of Liberty",
             "tours": 356,
-            "image": "./assets/images/statue-liberty.png"
+            "image": "./src/assets/images/statue-liberty.png"
         },
         {
             "id": 5,
             "name": "Taj Mahal",
             "tours": 356,
-            "image": "./assets/images/taj-mahal.png"
+            "image": "./src/assets/images/taj-mahal.png"
         },
         {
             "id": 6,
             "name": "Opera House",
             "tours": 356,
-            "image": "./assets/images/opera-house.png"
+            "image": "./src/assets/images/opera-house.png"
         },
         {
             "id": 7,
             "name": "Colosseum",
             "tours": 356,
-            "image": "./assets/images/colosseum.png"
+            "image": "./src/assets/images/colosseum.png"
         },
         {
             "id": 8,
             "name": "Grand Canyon",
             "tours": 356,
-            "image": "./assets/images/grand-canyon.png"
+            "image": "./src/assets/images/grand-canyon.png"
         }
     ],
     "recommendedTours": [
         {
             "id": 1,
             "title": "California Sunset/Twilight Boat Cruise",
-            "image": "./assets/images/journey2.png",
+            "image": "./src/assets/images/journey2.png",
             "badge": "Top Rated",
             "badgeColor": "#F09814",
             "duration": "2 days 3 nights",
@@ -76,7 +76,7 @@ const contentData = {
         {
             "id": 2,
             "title": "NYC: Food Tastings and Culture Tour",
-            "image": "./assets/images/journey3.png",
+            "image": "./src/assets/images/journey3.png",
             "badge": "Best Sale",
             "badgeColor": "#F09814",
             "duration": "3 days 3 nights",
@@ -88,7 +88,7 @@ const contentData = {
         {
             "id": 3,
             "title": "Grand Canyon Horseshoe Bend 2 days",
-            "image": "./assets/images/journey4.png",
+            "image": "./src/assets/images/journey4.png",
             "badge": "25% Off",
             "badgeColor": "#F09814",
             "duration": "7 days 6 nights",
@@ -127,7 +127,7 @@ const contentData = {
     "flightOffers": [
         {
             "id": 1,
-            "image": "./assets/images/flight1.png",
+            "image": "./src/assets/images/flight1.png",
             "fromCity": "Denmark",
             "toCity": "New York",
             "departureDate": "09 Jun 2024",
@@ -138,7 +138,7 @@ const contentData = {
         },
         {
             "id": 2,
-            "image": "./assets/images/flight4.png",
+            "image": "./src/assets/images/flight4.png",
             "fromCity": "Paris",
             "toCity": "London",
             "departureDate": "09 Jun 2024",
@@ -154,10 +154,10 @@ const contentData = {
             "type": "support",
             "title": "24/7 Support",
             "description": "We are here to help, before,\nduring, and even after your trip.",
-            "backgroundImage": "./assets/images/support-bg-3befd2.png",
+            "backgroundImage": "./src/assets/images/support-bg-3befd2.png",
             "backgroundColor": "#A8BAF9",
-            "image1": "./assets/images/support-25792b.png",
-            "image2": "./assets/images/support2-5e0d43.png",
+            "image1": "./src/assets/images/support-25792b.png",
+            "image2": "./src/assets/images/support2-5e0d43.png",
             "width": "288px",
             "height": "556.27px"
         },
@@ -166,7 +166,7 @@ const contentData = {
             "type": "best-price",
             "title": "Best Price",
             "description": "Price match within 48 hours of order\nconfirmation",
-            "backgroundImage": "./assets/images/best-price-bg-3b0683.png",
+            "backgroundImage": "./src/assets/images/best-price-bg-3b0683.png",
             "backgroundColor": "#D4F6C0",
             "buttonText": "View More",
             "width": "392px",
@@ -178,7 +178,7 @@ const contentData = {
             "tagline": "Save your time!",
             "title": "Explore, Book, Soar: Your\nJourney Awaits!",
             "description": "",
-            "backgroundImage": "./assets/images/save-time-bg-1c2044.png",
+            "backgroundImage": "./src/assets/images/save-time-bg-1c2044.png",
             "backgroundColor": "#A8E2EF",
             "buttonText": "View More",
             "width": "392px",
@@ -191,7 +191,7 @@ const contentData = {
             "price": "$899",
             "buttonText": "BOOK NOW",
             "backgroundColor": "#FCFCF3",
-            "image": "./assets/images/img-travel-56586a.png",
+            "image": "./src/assets/images/img-travel-56586a.png",
             "width": "496px",
             "height": "369px"
         }
@@ -199,8 +199,8 @@ const contentData = {
     "trustReasons": {
         "heading": "You will love us",
         "subheading": "Because more than 268 other customers have loved us too",
-        "image": "./assets/images/img-love-56586a.png",
-        "backgroundImage": "./assets/images/love-section-bg2-40aa85.png",
+        "image": "./src/assets/images/img-love-56586a.png",
+        "backgroundImage": "./src/assets/images/love-section-bg2-40aa85.png",
         "reasons": [
             {
                 "id": 1,
@@ -235,49 +235,49 @@ const contentData = {
             name: "Venice",
             tours: "356 Tours",
             activities: "248 Activities",
-            image: "./assets/images/popular-56586a.png"
+            image: "./src/assets/images/popular-56586a.png"
         },
         {
             id: 2,
             name: "Amsterdam",
             tours: "356 Tours",
             activities: "248 Activities",
-            image: "./assets/images/popular2-56586a.png"
+            image: "./src/assets/images/popular2-56586a.png"
         },
         {
             id: 3,
             name: "Budapest",
             tours: "356 Tours",
             activities: "248 Activities",
-            image: "./assets/images/popular3-56586a.png"
+            image: "./src/assets/images/popular3-56586a.png"
         },
         {
             id: 4,
             name: "Lisbon",
             tours: "356 Tours",
             activities: "248 Activities",
-            image: "./assets/images/popular4-56586a.png"
+            image: "./src/assets/images/popular4-56586a.png"
         },
         {
             id: 5,
             name: "London",
             tours: "356 Tours",
             activities: "248 Activities",
-            image: "./assets/images/popular5-56586a.png"
+            image: "./src/assets/images/popular5-56586a.png"
         },
         {
             id: 6,
             name: "Ottawa",
             tours: "356 Tours",
             activities: "248 Activities",
-            image: "./assets/images/popular6-56586a.png"
+            image: "./src/assets/images/popular6-56586a.png"
         },
         {
             id: 7,
             name: "Paris",
             tours: "356 Tours",
             activities: "248 Activities",
-            image: "./assets/images/popular7-56586a.png"
+            image: "./src/assets/images/popular7-56586a.png"
         }
     ],
     
@@ -287,41 +287,41 @@ const contentData = {
         videos: [
             {
                 id: 1,
-                image: "./assets/images/video1-56586a.png",
+                image: "./src/assets/images/video1-56586a.png",
                 width: 496,
                 height: 599.89,
                 size: "large"
             },
             {
                 id: 2,
-                image: "./assets/images/video2-56586a.png",
+                image: "./src/assets/images/video2-56586a.png",
                 width: 288,
                 height: 240,
                 size: "small"
             },
             {
                 id: 3,
-                image: "./assets/images/video3-56586a.png",
+                image: "./src/assets/images/video3-56586a.png",
                 width: 288,
                 height: 336.97,
                 size: "medium"
             },
             {
                 id: 4,
-                image: "./assets/images/video4-56586a.png",
+                image: "./src/assets/images/video4-56586a.png",
                 width: 392,
                 height: 288.11,
                 size: "wide"
             },
             {
                 id: 5,
-                image: "./assets/images/video5-56586a.png",
+                image: "./src/assets/images/video5-56586a.png",
                 width: 392,
                 height: 288.11,
                 size: "wide"
             }
         ],
-        playButton: "./assets/images/play-button-70eb20.png",
+        playButton: "./src/assets/images/play-button-70eb20.png",
         loadMoreText: "Load More Tours"
     },
     
@@ -382,7 +382,7 @@ const contentData = {
         articles: [
             {
                 id: 1,
-                image: "./assets/images/news-20000e.png",
+                image: "./src/assets/images/news-20000e.png",
                 category: "Cultural",
                 categoryColor: "#FFFFFF",
                 date: "18 Sep 2024",
@@ -390,11 +390,11 @@ const contentData = {
                 comments: "38 comments",
                 title: "Ultimate Travel Planning Guide:\n10 Tips for a Seamless Journey",
                 author: "Jimmy Dave",
-                authorAvatar: "./assets/images/avatar-56586a.png"
+                authorAvatar: "./src/assets/images/avatar-56586a.png"
             },
             {
                 id: 2,
-                image: "./assets/images/news2-20000e.png",
+                image: "./src/assets/images/news2-20000e.png",
                 category: "Travel",
                 categoryColor: "#FFFFFF",
                 date: "18 Sep 2024",
@@ -402,11 +402,11 @@ const contentData = {
                 comments: "38 comments",
                 title: "Top 10 Travel Hacks for Budget-\nConscious Adventurers",
                 author: "Jimmy Dave",
-                authorAvatar: "./assets/images/avatar-56586a.png"
+                authorAvatar: "./src/assets/images/avatar-56586a.png"
             },
             {
                 id: 3,
-                image: "./assets/images/news3-20000e.png",
+                image: "./src/assets/images/news3-20000e.png",
                 category: "Discovery",
                 categoryColor: "#FFFFFF",
                 date: "18 Sep 2024",
@@ -414,7 +414,7 @@ const contentData = {
                 comments: "38 comments",
                 title: "Discovering Hidden Gems: 10 Off-\nthe-Beaten-Path Travel Tips",
                 author: "Jimmy Dave",
-                authorAvatar: "./assets/images/avatar-56586a.png"
+                authorAvatar: "./src/assets/images/avatar-56586a.png"
             }
         ]
     }
@@ -1105,7 +1105,7 @@ function renderFAQ(data) {
                     <h3 class="font-bold text-left text-sm sm:text-lg lg:text-2xl leading-tight min-w-0" style="lg:font-size: 24px; lg:line-height: 32px; color: #000000; font-family: 'Urbanist', sans-serif;">${q.question}</h3>
                 </div>
                 <div class="flex-shrink-0 ml-2 sm:ml-3 lg:ml-4" style="width: 32px; height: 32px; sm:width: 38px; sm:height: 38px; lg:width: 42px; lg:height: 42px; background-color: ${q.isOpen ? '#000000' : '#F2F4F6'}; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
-                    <img src="./assets/images/chevron-down-58c372.png" alt="Toggle" class="w-4 h-4 sm:w-5 sm:h-5 lg:w-5 lg:h-5" style="${q.isOpen ? 'transform: rotate(180deg); filter: invert(1);' : ''}">
+                    <img src="./src/assets/images/chevron-down-58c372.png" alt="Toggle" class="w-4 h-4 sm:w-5 sm:h-5 lg:w-5 lg:h-5" style="${q.isOpen ? 'transform: rotate(180deg); filter: invert(1);' : ''}">
                 </div>
             </button>
             ${q.isOpen && q.answer ? `
