@@ -85,22 +85,17 @@
     
     <!-- Navigation Bar -->
     <nav class="fixed top-0 left-0 right-0 bg-white z-50" style="box-shadow: 0px 7.999919891357422px 19.999799728393555px 0px rgba(0, 0, 0, 0.05); border-bottom: 1px solid #F2F4F6;">
-        <div class="flex items-center justify-between px-4 lg:px-12" style="height: 62px; width: 100%; max-width: 1920px; margin: 0 auto;">
+        <div class="flex items-center justify-between px-4 " style="height: 62px; width: 100%; max-width: 1920px; margin: 0 auto;">
             <!-- Logo -->
-            <div class="flex items-center flex-shrink-0">
-                <svg width="134" height="36" viewBox="0 0 134 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Globe Icon -->
-                    <g transform="translate(1.13, 2.25)">
-                        <image 
-                            href="assets/images/logo.svg fill.svg" 
-                            x="0.565" 
-                            y="0" 
-                            width="33.75"
-                            height="33.75" 
-                        />
-                    </g>
-                </svg>
+            <!-- Navbar Left (Logo) -->
+            <div class="flex flex-shrink-0 ">
+            <img 
+                src="src/assets/images/logo.svg fill.svg" 
+                alt="Logo" 
+                class="h-10 w-auto object-contain"
+            />
             </div>
+
             
             <!-- Mobile Menu Button -->
             <button id="mobileMenuBtn" class="lg:hidden p-2 z-10">
@@ -734,25 +729,15 @@ Beautiful Places on Earth</h2>
                 <!-- Company Info -->
                 <div class="space-y-4">
                     <!-- Logo -->
-                    <div style="width: 134px; height: 36px;">
-                        <svg width="134" height="36" viewBox="0 0 134 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <!-- Globe Icon -->
-                            <g transform="translate(1.13, 2.25)">
-                                <!-- Outer Circle -->
-                                <circle cx="17.44" cy="16.875" r="16.875" fill="#1366D9"/>
-                                <!-- Longitude lines -->
-                                <path d="M17.44 0C17.44 0 17.44 6.83 17.44 16.875C17.44 26.92 17.44 33.75 17.44 33.75" stroke="white" stroke-width="1.5"/>
-                                <!-- Latitude top arc -->
-                                <path d="M0.565 16.875C0.565 16.875 3.565 13.46 8.72 13.46C13.875 13.46 17.44 13.46 17.44 13.46C17.44 13.46 21.005 13.46 26.16 13.46C31.315 13.46 34.315 16.875 34.315 16.875" stroke="white" stroke-width="1.5" fill="none"/>
-                                <!-- Latitude bottom arc -->
-                                <path d="M0.565 16.875C0.565 16.875 3.565 20.29 8.72 20.29C13.875 20.29 17.44 20.29 17.44 20.29C17.44 20.29 21.005 20.29 26.16 20.29C31.315 20.29 34.315 16.875 34.315 16.875" stroke="white" stroke-width="1.5" fill="none"/>
-                                <!-- Horizontal center line -->
-                                <line x1="0.565" y1="16.875" x2="34.315" y2="16.875" stroke="white" stroke-width="1.5"/>
-                            </g>
-                            <!-- Text "TravelLux" -->
-                            <text x="42.2" y="26.8" font-family="Manrope, sans-serif" font-weight="800" font-size="20" fill="#000000">TravelLux</text>
-                        </svg>
+                    <!-- Navbar Left (Logo) -->
+                    <div class="flex items-center flex-shrink-0 pl-4">
+                    <img 
+                        src="src/assets/images/logo.svg fill.svg" 
+                        alt="Logo" 
+                        class="h-10 w-auto object-contain"
+                    />
                     </div>
+
                     
                     <!-- Address -->
                     <div class="flex items-start space-x-2">
